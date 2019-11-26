@@ -19,7 +19,7 @@ int main()
     int display_width = 1280 ;
     int display_height = 720 ;
     int framerate = 60 ;
-    int flip_method = 0 ;
+    int flip_method = 9 ;
 
     std::string pipeline = gstreamer_pipeline(capture_width,
 	capture_height,
