@@ -8,7 +8,6 @@ CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/co
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/base.hpp
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/bufferpool.hpp
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/check.hpp
-CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/core_c.h
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/cuda.hpp
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/cuda.inl.hpp
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/cuda_types.hpp
@@ -31,7 +30,6 @@ CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/co
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/saturate.hpp
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/traits.hpp
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/types.hpp
-CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/types_c.h
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/utility.hpp
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/version.hpp
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/core/vsx_utils.hpp
@@ -87,7 +85,6 @@ CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/fl
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/highgui.hpp
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/imgcodecs.hpp
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/imgproc.hpp
-CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/imgproc/types_c.h
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/ml.hpp
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/ml/ml.inl.hpp
 CMakeFiles/TestOpenCVCmake.dir/main.cpp.o: /usr/local/include/opencv4/opencv2/objdetect.hpp

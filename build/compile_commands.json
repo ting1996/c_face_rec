@@ -1,7 +1,1127 @@
 [
 {
   "directory": "/home/pi/Documents/c_face_rec/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -isystem /usr/local/include/opencv4  -g   -std=gnu++11 -o CMakeFiles/TestOpenCVCmake.dir/main.cpp.o -c /home/pi/Documents/c_face_rec/main.cpp",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/dlib-19.17/dlib/.. -isystem /usr/local/include/opencv4  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/face_rec.dir/face_rec.cpp.o -c /home/pi/Documents/c_face_rec/face_rec.cpp",
+  "file": "/home/pi/Documents/c_face_rec/face_rec.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/dlib-19.17/dlib/.. -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -isystem /usr/local/include/opencv4  -O3 -DNDEBUG -fPIE   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -fopenmp -std=gnu++11 -o CMakeFiles/main.dir/main.cpp.o -c /home/pi/Documents/c_face_rec/main.cpp",
   "file": "/home/pi/Documents/c_face_rec/main.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/dlib-19.17/dlib/.. -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -isystem /usr/local/include/opencv4  -O3 -DNDEBUG -fPIE   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -fopenmp -std=gnu++11 -o CMakeFiles/main.dir/UltraFace/UltraFace.cpp.o -c /home/pi/Documents/c_face_rec/UltraFace/UltraFace.cpp",
+  "file": "/home/pi/Documents/c_face_rec/UltraFace/UltraFace.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/dlib-19.17/dlib/.. -isystem /usr/local/include/opencv4  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/face_data_webcam.dir/face_data_webcam.cpp.o -c /home/pi/Documents/c_face_rec/face_data_webcam.cpp",
+  "file": "/home/pi/Documents/c_face_rec/face_data_webcam.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/base64/base64_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/base64/base64_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/base64/base64_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/bigint/bigint_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/bigint/bigint_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/bigint/bigint_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/bigint/bigint_kernel_2.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/bigint/bigint_kernel_2.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/bigint/bigint_kernel_2.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/bit_stream/bit_stream_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/bit_stream/bit_stream_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/bit_stream/bit_stream_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/entropy_decoder/entropy_decoder_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/entropy_decoder/entropy_decoder_kernel_2.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/entropy_decoder/entropy_decoder_kernel_2.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/entropy_encoder/entropy_encoder_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/entropy_encoder/entropy_encoder_kernel_2.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/entropy_encoder/entropy_encoder_kernel_2.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/md5/md5_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/md5/md5_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/md5/md5_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/tokenizer/tokenizer_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/tokenizer/tokenizer_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/tokenizer/tokenizer_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/unicode/unicode.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/unicode/unicode.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/unicode/unicode.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/data_io/image_dataset_metadata.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/data_io/image_dataset_metadata.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/data_io/image_dataset_metadata.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/data_io/mnist.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/data_io/mnist.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/data_io/mnist.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/global_optimization/global_function_search.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/global_optimization/global_function_search.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/global_optimization/global_function_search.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/filtering/kalman_filter.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/filtering/kalman_filter.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/filtering/kalman_filter.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/test_for_odr_violations.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/test_for_odr_violations.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/test_for_odr_violations.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/svm/auto.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/svm/auto.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/svm/auto.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/sockets/sockets_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/sockets/sockets_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/sockets/sockets_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/bsp/bsp.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/bsp/bsp.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/bsp/bsp.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/dir_nav/dir_nav_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/dir_nav/dir_nav_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/dir_nav/dir_nav_kernel_2.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/dir_nav/dir_nav_kernel_2.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/dir_nav/dir_nav_kernel_2.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/dir_nav/dir_nav_extensions.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/dir_nav/dir_nav_extensions.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/dir_nav/dir_nav_extensions.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/linker/linker_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/linker/linker_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/linker/linker_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/logger/extra_logger_headers.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/logger/extra_logger_headers.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/logger/extra_logger_headers.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/logger/logger_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/logger/logger_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/logger/logger_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/logger/logger_config_file.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/logger/logger_config_file.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/logger/logger_config_file.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/misc_api/misc_api_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/misc_api/misc_api_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/misc_api/misc_api_kernel_2.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/misc_api/misc_api_kernel_2.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/misc_api/misc_api_kernel_2.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/sockets/sockets_extensions.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/sockets/sockets_extensions.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/sockets/sockets_extensions.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/sockets/sockets_kernel_2.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/sockets/sockets_kernel_2.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/sockets/sockets_kernel_2.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/sockstreambuf/sockstreambuf.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/sockstreambuf/sockstreambuf.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/sockstreambuf/sockstreambuf_unbuffered.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/sockstreambuf/sockstreambuf_unbuffered.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/server/server_kernel.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/server/server_kernel.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/server/server_kernel.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/server/server_iostream.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/server/server_iostream.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/server/server_iostream.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/server/server_http.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/server/server_http.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/server/server_http.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/threads/multithreaded_object_extension.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/threads/multithreaded_object_extension.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/threads/multithreaded_object_extension.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/threads/threaded_object_extension.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/threads/threaded_object_extension.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/threads/threaded_object_extension.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/threads/threads_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/threads/threads_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/threads/threads_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/threads/threads_kernel_2.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/threads/threads_kernel_2.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/threads/threads_kernel_2.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/threads/threads_kernel_shared.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/threads/threads_kernel_shared.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/threads/threads_kernel_shared.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/threads/thread_pool_extension.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/threads/thread_pool_extension.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/threads/thread_pool_extension.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/threads/async.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/threads/async.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/threads/async.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/timer/timer.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/timer/timer.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/timer/timer.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/stack_trace.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/stack_trace.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/stack_trace.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/cuda/cpu_dlib.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/cuda/cpu_dlib.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/cuda/cpu_dlib.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/cuda/tensor_tools.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/cuda/tensor_tools.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/cuda/tensor_tools.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/gui_widgets/fonts.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/gui_widgets/fonts.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/gui_widgets/fonts.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/gui_widgets/widgets.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/gui_widgets/widgets.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/gui_widgets/widgets.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/gui_widgets/drawable.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/gui_widgets/drawable.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/gui_widgets/drawable.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/gui_widgets/canvas_drawing.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/gui_widgets/canvas_drawing.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/gui_widgets/canvas_drawing.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/gui_widgets/style.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/gui_widgets/style.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/gui_widgets/style.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/gui_widgets/base_widgets.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/gui_widgets/base_widgets.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/gui_widgets/base_widgets.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_1.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/gui_core/gui_core_kernel_1.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/gui_core/gui_core_kernel_1.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/gui_core/gui_core_kernel_2.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/gui_core/gui_core_kernel_2.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/gui_core/gui_core_kernel_2.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/image_loader/png_loader.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/image_loader/png_loader.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/image_loader/png_loader.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/image_saver/save_png.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/image_saver/save_png.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/image_saver/save_png.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/image_loader/jpeg_loader.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/image_loader/jpeg_loader.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/image_loader/jpeg_loader.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/image_saver/save_jpeg.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/image_saver/save_jpeg.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/image_saver/save_jpeg.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/cuda/cudnn_dlibapi.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/cuda/cudnn_dlibapi.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/cuda/cudnn_dlibapi.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/cuda/cublas_dlibapi.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/cuda/cublas_dlibapi.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/cuda/cublas_dlibapi.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/cuda/curand_dlibapi.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/cuda/curand_dlibapi.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/cuda/curand_dlibapi.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/cuda/cuda_data_ptr.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/cuda/cuda_data_ptr.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/cuda/cuda_data_ptr.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/dlib_build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/usr/local/cuda/include  -O3 -DNDEBUG   -DDLIB_JPEG_SUPPORT -DDLIB_USE_BLAS -DDLIB_USE_LAPACK -DDLIB_USE_CUDA -DDLIB_PNG_SUPPORT -Wreturn-type -std=gnu++11 -o CMakeFiles/dlib.dir/cuda/gpu_data.cpp.o -c /home/pi/Documents/dlib-19.17/dlib/cuda/gpu_data.cpp",
+  "file": "/home/pi/Documents/dlib-19.17/dlib/cuda/gpu_data.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/benchmark",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src  -O3 -DNDEBUG -fPIE   -fopenmp -std=gnu++11 -o CMakeFiles/benchncnn.dir/benchncnn.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/benchmark/benchncnn.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/benchmark/benchncnn.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/allocator.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/allocator.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/allocator.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/blob.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/blob.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/blob.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/command.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/command.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/command.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/cpu.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/cpu.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/cpu.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/gpu.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/gpu.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/gpu.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/mat.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/mat_pixel.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat_pixel.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat_pixel.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/mat_pixel_resize.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat_pixel_resize.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/mat_pixel_resize.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/modelbin.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/modelbin.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/modelbin.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/net.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/net.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/net.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/opencv.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/opencv.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/opencv.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/option.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/option.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/paramdict.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/paramdict.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/paramdict.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/pipeline.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/pipeline.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/pipeline.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/benchmark.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/benchmark.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/benchmark.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/absval.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/absval.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/absval.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/absval_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/absval_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/absval_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/absval_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/absval_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/absval_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/batchnorm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/batchnorm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/batchnorm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/batchnorm_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/batchnorm_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/batchnorm_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/batchnorm_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/batchnorm_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/batchnorm_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/bias.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bias.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bias.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/bias_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/bias_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/bias_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/bnll.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bnll.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/bnll.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/concat.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/concat.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/concat.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/concat_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/concat_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/concat_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/concat_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/concat_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/concat_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/convolution.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolution.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolution.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/convolution_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/convolution_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/convolution_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/convolution_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/convolution_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/convolution_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/crop.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/crop.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/crop.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/crop_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/crop_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/crop_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/crop_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/crop_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/crop_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/deconvolution.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolution.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolution.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/deconvolution_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/deconvolution_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/deconvolution_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/deconvolution_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/deconvolution_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/deconvolution_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/dropout.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dropout.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dropout.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/dropout_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/dropout_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/dropout_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/dropout_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/dropout_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/dropout_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/eltwise.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/eltwise.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/eltwise.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/eltwise_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/eltwise_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/eltwise_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/eltwise_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/eltwise_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/eltwise_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/elu.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/elu.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/elu.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/embed.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/embed.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/embed.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/exp.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/exp.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/exp.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/flatten.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/flatten.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/flatten.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/flatten_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/flatten_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/flatten_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/flatten_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/flatten_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/flatten_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/innerproduct.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/innerproduct.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/innerproduct.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/innerproduct_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/innerproduct_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/innerproduct_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/innerproduct_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/innerproduct_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/innerproduct_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/input.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/input.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/input.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/log.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/log.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/log.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/lrn.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/lrn.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/lrn.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/lrn_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/lrn_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/lrn_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/lrn_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/lrn_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/lrn_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/memorydata.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/memorydata.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/memorydata.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/mvn.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/mvn.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/mvn.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/pooling.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/pooling.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/pooling.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/pooling_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/pooling_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/pooling_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/pooling_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/pooling_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/pooling_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/power.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/power.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/power.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/prelu.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/prelu.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/prelu.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/prelu_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/prelu_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/prelu_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/prelu_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/prelu_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/prelu_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/proposal.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/proposal.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/proposal.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/reduction.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reduction.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reduction.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/relu.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/relu.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/relu.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/relu_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/relu_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/relu_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/relu_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/relu_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/relu_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/reshape.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reshape.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reshape.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/reshape_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/reshape_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/reshape_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/reshape_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/reshape_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/reshape_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/roipooling.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/roipooling.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/roipooling.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/scale.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/scale.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/scale.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/scale_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/scale_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/scale_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/scale_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/scale_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/scale_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/sigmoid.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/sigmoid.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/sigmoid.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/sigmoid_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/sigmoid_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/sigmoid_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/sigmoid_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/sigmoid_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/sigmoid_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/slice.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/slice.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/slice.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/softmax.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/softmax.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/softmax.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/softmax_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/softmax_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/softmax_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/softmax_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/softmax_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/softmax_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/split.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/split.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/split.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/tanh.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/tanh.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/tanh.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/tanh_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/tanh_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/tanh_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/tanh_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/tanh_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/tanh_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/threshold.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/threshold.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/threshold.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/binaryop.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/binaryop.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/binaryop.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/binaryop_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/binaryop_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/binaryop_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/binaryop_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/binaryop_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/binaryop_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/unaryop.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/unaryop.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/unaryop.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/unaryop_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/unaryop_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/unaryop_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/unaryop_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/unaryop_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/unaryop_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/convolutiondepthwise.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolutiondepthwise.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/convolutiondepthwise.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/convolutiondepthwise_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/convolutiondepthwise_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/convolutiondepthwise_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/convolutiondepthwise_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/convolutiondepthwise_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/padding.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/padding.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/padding.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/padding_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/padding_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/padding_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/padding_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/padding_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/padding_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/squeeze.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/squeeze.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/squeeze.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/expanddims.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/expanddims.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/expanddims.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/normalize.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/normalize.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/normalize.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/permute.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/permute.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/permute.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/permute_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/permute_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/permute_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/priorbox.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/priorbox.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/priorbox.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/priorbox_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/priorbox_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/priorbox_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/detectionoutput.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/detectionoutput.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/detectionoutput.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/interp.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/interp.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/interp.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/interp_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/interp_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/interp_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/interp_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/interp_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/interp_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/deconvolutiondepthwise.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolutiondepthwise.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/deconvolutiondepthwise.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/deconvolutiondepthwise_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/deconvolutiondepthwise_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/deconvolutiondepthwise_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/deconvolutiondepthwise_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/deconvolutiondepthwise_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/shufflechannel.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/shufflechannel.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/shufflechannel.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/shufflechannel_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/shufflechannel_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/shufflechannel_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/shufflechannel_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/shufflechannel_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/shufflechannel_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/instancenorm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/instancenorm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/instancenorm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/instancenorm_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/instancenorm_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/instancenorm_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/clip.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/clip.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/clip.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/clip_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/clip_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/clip_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/clip_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/clip_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/clip_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/reorg.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reorg.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/reorg.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/reorg_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/reorg_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/reorg_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/yolodetectionoutput.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolodetectionoutput.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolodetectionoutput.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/quantize.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/quantize.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/quantize.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/quantize_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/quantize_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/quantize_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/dequantize.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dequantize.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/dequantize.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/dequantize_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/dequantize_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/dequantize_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/yolov3detectionoutput.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolov3detectionoutput.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/yolov3detectionoutput.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/psroipooling.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/psroipooling.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/psroipooling.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/packing.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/packing.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/packing.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/packing_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/packing_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/packing_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/packing_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/packing_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/packing_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/requantize.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/requantize.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/requantize.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/requantize_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/requantize_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/requantize_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/cast.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/cast.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/cast.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/cast_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/cast_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/cast_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/cast_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/cast_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/cast_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/hardsigmoid.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardsigmoid.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardsigmoid.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/hardsigmoid_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/hardsigmoid_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/hardsigmoid_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/hardsigmoid_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/hardsigmoid_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/hardsigmoid_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/selu.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/selu.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/selu.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/selu_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/selu_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/selu_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/hardswish.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardswish.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/hardswish.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/arm/hardswish_arm.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/hardswish_arm.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/arm/hardswish_arm.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/vulkan/hardswish_vulkan.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/hardswish_vulkan.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/vulkan/hardswish_vulkan.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/src",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer  -O3 -DNDEBUG -fPIC   -Wall -Wextra -Wno-unused-function -Ofast -ffast-math -fvisibility=hidden -fvisibility-inlines-hidden -fopenmp -std=gnu++11 -o CMakeFiles/ncnn.dir/layer/noop.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/noop.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src/layer/noop.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/tools",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src  -O3 -DNDEBUG -fPIE   -fopenmp -std=gnu++11 -o CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/ncnnoptimize.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/ncnnoptimize.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/tools",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/src -I/home/pi/Documents/c_face_rec/build/ncnn_build/src  -O3 -DNDEBUG -fPIE   -fopenmp -std=gnu++11 -o CMakeFiles/ncnn2mem.dir/ncnn2mem.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/ncnn2mem.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/ncnn2mem.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/tools/caffe",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/c_face_rec/build/ncnn_build/tools/caffe  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/caffe2ncnn.dir/caffe2ncnn.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/caffe/caffe2ncnn.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/caffe/caffe2ncnn.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/tools/caffe",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/c_face_rec/build/ncnn_build/tools/caffe  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/caffe2ncnn.dir/caffe.pb.cc.o -c /home/pi/Documents/c_face_rec/build/ncnn_build/tools/caffe/caffe.pb.cc",
+  "file": "/home/pi/Documents/c_face_rec/build/ncnn_build/tools/caffe/caffe.pb.cc"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/tools/mxnet",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7    -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/mxnet2ncnn.dir/mxnet2ncnn.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/mxnet/mxnet2ncnn.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/mxnet/mxnet2ncnn.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/tools/onnx",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/c_face_rec/build/ncnn_build/tools/onnx  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/onnx2ncnn.dir/onnx2ncnn.cpp.o -c /home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/onnx/onnx2ncnn.cpp",
+  "file": "/home/pi/Documents/Ultra-Light-Fast-Generic-Face-Detector-1MB/ncnn/3rdparty/ncnn/tools/onnx/onnx2ncnn.cpp"
+},
+{
+  "directory": "/home/pi/Documents/c_face_rec/build/ncnn_build/tools/onnx",
+  "command": "/usr/bin/aarch64-linux-gnu-g++-7   -I/home/pi/Documents/c_face_rec/build/ncnn_build/tools/onnx  -O3 -DNDEBUG   -std=gnu++11 -o CMakeFiles/onnx2ncnn.dir/onnx.pb.cc.o -c /home/pi/Documents/c_face_rec/build/ncnn_build/tools/onnx/onnx.pb.cc",
+  "file": "/home/pi/Documents/c_face_rec/build/ncnn_build/tools/onnx/onnx.pb.cc"
 }
 ]

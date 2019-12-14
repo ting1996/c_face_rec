@@ -1,0 +1,3 @@
+/home/pi/Documents/c_face_rec/build/dlib_build/cuda_test_build/CMakeFiles/rebuild_cache.dir
+/home/pi/Documents/c_face_rec/build/dlib_build/cuda_test_build/CMakeFiles/cuda_test.dir
+/home/pi/Documents/c_face_rec/build/dlib_build/cuda_test_build/CMakeFiles/edit_cache.dir
