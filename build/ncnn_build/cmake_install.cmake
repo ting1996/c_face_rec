@@ -42,6 +42,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/pi/Documents/c_face_rec/build/ncnn_build/benchmark/cmake_install.cmake")
   include("/home/pi/Documents/c_face_rec/build/ncnn_build/src/cmake_install.cmake")
   include("/home/pi/Documents/c_face_rec/build/ncnn_build/tools/cmake_install.cmake")
+  include("/home/pi/Documents/c_face_rec/build/ncnn_build/tests/cmake_install.cmake")
 
 endif()
 

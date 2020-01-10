@@ -1,3 +1,0 @@
-/home/pi/Documents/c_face_rec/CMakeFiles/rebuild_cache.dir
-/home/pi/Documents/c_face_rec/CMakeFiles/TestOpenCVCmake.dir
-/home/pi/Documents/c_face_rec/CMakeFiles/edit_cache.dir

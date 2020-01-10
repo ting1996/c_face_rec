@@ -1,4 +1,4 @@
-# Install script for directory: /home/pi/Documents/dlib-19.17/dlib
+# Install script for directory: /home/pi/Documents/dlib/dlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

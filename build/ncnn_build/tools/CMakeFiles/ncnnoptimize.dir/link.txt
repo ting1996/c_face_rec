@@ -1,1 +1,0 @@
-/usr/bin/aarch64-linux-gnu-g++-7  -O3 -DNDEBUG   CMakeFiles/ncnnoptimize.dir/ncnnoptimize.cpp.o  -o ncnnoptimize  -Wl,-rpath,/usr/local/lib ../src/libncnn.a /usr/local/lib/libvulkan.so /usr/local/lib/libvulkan.so /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.so -lpthread 

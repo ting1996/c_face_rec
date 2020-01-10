@@ -12,11 +12,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = AbsVal::create_pipeline(opt); if (ret) return ret; }
         { int ret = AbsVal_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = AbsVal_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = AbsVal_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = AbsVal_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = AbsVal_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = AbsVal_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = AbsVal::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -35,11 +35,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = BatchNorm::create_pipeline(opt); if (ret) return ret; }
         { int ret = BatchNorm_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = BatchNorm_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = BatchNorm_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = BatchNorm_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = BatchNorm_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = BatchNorm_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = BatchNorm::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -95,11 +95,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Concat::create_pipeline(opt); if (ret) return ret; }
         { int ret = Concat_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Concat_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Concat_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Concat_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Concat_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Concat_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Concat::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -118,11 +118,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Convolution::create_pipeline(opt); if (ret) return ret; }
         { int ret = Convolution_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Convolution_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Convolution_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Convolution_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Convolution_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Convolution_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Convolution::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -141,11 +141,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Crop::create_pipeline(opt); if (ret) return ret; }
         { int ret = Crop_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Crop_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Crop_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Crop_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Crop_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Crop_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Crop::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -164,11 +164,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Deconvolution::create_pipeline(opt); if (ret) return ret; }
         { int ret = Deconvolution_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Deconvolution_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Deconvolution_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Deconvolution_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Deconvolution_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Deconvolution_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Deconvolution::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -187,11 +187,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Dropout::create_pipeline(opt); if (ret) return ret; }
         { int ret = Dropout_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Dropout_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Dropout_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Dropout_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Dropout_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Dropout_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Dropout::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -210,11 +210,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Eltwise::create_pipeline(opt); if (ret) return ret; }
         { int ret = Eltwise_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Eltwise_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Eltwise_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Eltwise_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Eltwise_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Eltwise_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Eltwise::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -284,11 +284,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Flatten::create_pipeline(opt); if (ret) return ret; }
         { int ret = Flatten_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Flatten_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Flatten_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Flatten_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Flatten_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Flatten_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Flatten::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -307,11 +307,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = InnerProduct::create_pipeline(opt); if (ret) return ret; }
         { int ret = InnerProduct_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = InnerProduct_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = InnerProduct_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = InnerProduct_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = InnerProduct_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = InnerProduct_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = InnerProduct::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -364,11 +364,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = LRN::create_pipeline(opt); if (ret) return ret; }
         { int ret = LRN_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = LRN_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = LRN_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = LRN_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = LRN_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = LRN_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = LRN::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -421,11 +421,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Pooling::create_pipeline(opt); if (ret) return ret; }
         { int ret = Pooling_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Pooling_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Pooling_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Pooling_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Pooling_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Pooling_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Pooling::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -461,11 +461,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = PReLU::create_pipeline(opt); if (ret) return ret; }
         { int ret = PReLU_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = PReLU_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = PReLU_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = PReLU_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = PReLU_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = PReLU_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = PReLU::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -518,11 +518,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = ReLU::create_pipeline(opt); if (ret) return ret; }
         { int ret = ReLU_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = ReLU_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = ReLU_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = ReLU_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = ReLU_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = ReLU_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = ReLU::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -541,11 +541,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Reshape::create_pipeline(opt); if (ret) return ret; }
         { int ret = Reshape_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Reshape_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Reshape_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Reshape_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Reshape_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Reshape_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Reshape::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -581,11 +581,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Scale::create_pipeline(opt); if (ret) return ret; }
         { int ret = Scale_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Scale_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Scale_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Scale_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Scale_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Scale_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Scale::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -604,11 +604,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Sigmoid::create_pipeline(opt); if (ret) return ret; }
         { int ret = Sigmoid_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Sigmoid_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Sigmoid_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Sigmoid_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Sigmoid_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Sigmoid_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Sigmoid::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -618,15 +618,21 @@ DEFINE_LAYER_CREATOR(Sigmoid_final)
 } // namespace ncnn
 
 #include "layer/slice.h"
+#include "layer/arm/slice_arm.h"
+#include "layer/vulkan/slice_vulkan.h"
 namespace ncnn {
-class Slice_final : virtual public Slice
+class Slice_final : virtual public Slice, virtual public Slice_arm, virtual public Slice_vulkan
 {
 public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Slice::create_pipeline(opt); if (ret) return ret; }
+        { int ret = Slice_arm::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Slice_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
+        if (vkdev) { int ret = Slice_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        { int ret = Slice_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Slice::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
     }
@@ -644,11 +650,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Softmax::create_pipeline(opt); if (ret) return ret; }
         { int ret = Softmax_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Softmax_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Softmax_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Softmax_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Softmax_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Softmax_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Softmax::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -684,11 +690,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = TanH::create_pipeline(opt); if (ret) return ret; }
         { int ret = TanH_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = TanH_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = TanH_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = TanH_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = TanH_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = TanH_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = TanH::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -724,11 +730,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = BinaryOp::create_pipeline(opt); if (ret) return ret; }
         { int ret = BinaryOp_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = BinaryOp_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = BinaryOp_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = BinaryOp_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = BinaryOp_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = BinaryOp_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = BinaryOp::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -747,11 +753,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = UnaryOp::create_pipeline(opt); if (ret) return ret; }
         { int ret = UnaryOp_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = UnaryOp_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = UnaryOp_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = UnaryOp_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = UnaryOp_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = UnaryOp_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = UnaryOp::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -770,11 +776,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = ConvolutionDepthWise::create_pipeline(opt); if (ret) return ret; }
         { int ret = ConvolutionDepthWise_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = ConvolutionDepthWise_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = ConvolutionDepthWise_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = ConvolutionDepthWise_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = ConvolutionDepthWise_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = ConvolutionDepthWise_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = ConvolutionDepthWise::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -793,11 +799,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Padding::create_pipeline(opt); if (ret) return ret; }
         { int ret = Padding_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Padding_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Padding_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Padding_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Padding_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Padding_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Padding::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -841,15 +847,18 @@ DEFINE_LAYER_CREATOR(ExpandDims_final)
 } // namespace ncnn
 
 #include "layer/normalize.h"
+#include "layer/vulkan/normalize_vulkan.h"
 namespace ncnn {
-class Normalize_final : virtual public Normalize
+class Normalize_final : virtual public Normalize, virtual public Normalize_vulkan
 {
 public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Normalize::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Normalize_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
+        if (vkdev) { int ret = Normalize_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Normalize::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
     }
@@ -865,11 +874,11 @@ class Permute_final : virtual public Permute, virtual public Permute_vulkan
 public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Permute::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Permute_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Permute_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Permute_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Permute_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Permute::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
     }
@@ -885,11 +894,11 @@ class PriorBox_final : virtual public PriorBox, virtual public PriorBox_vulkan
 public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = PriorBox::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = PriorBox_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = PriorBox_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = PriorBox_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = PriorBox_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = PriorBox::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
     }
@@ -924,11 +933,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Interp::create_pipeline(opt); if (ret) return ret; }
         { int ret = Interp_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Interp_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Interp_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Interp_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Interp_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Interp_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Interp::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -947,11 +956,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = DeconvolutionDepthWise::create_pipeline(opt); if (ret) return ret; }
         { int ret = DeconvolutionDepthWise_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = DeconvolutionDepthWise_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = DeconvolutionDepthWise_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = DeconvolutionDepthWise_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = DeconvolutionDepthWise_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = DeconvolutionDepthWise_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = DeconvolutionDepthWise::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -970,11 +979,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = ShuffleChannel::create_pipeline(opt); if (ret) return ret; }
         { int ret = ShuffleChannel_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = ShuffleChannel_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = ShuffleChannel_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = ShuffleChannel_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = ShuffleChannel_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = ShuffleChannel_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = ShuffleChannel::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -991,11 +1000,11 @@ class InstanceNorm_final : virtual public InstanceNorm, virtual public InstanceN
 public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = InstanceNorm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = InstanceNorm_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = InstanceNorm_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = InstanceNorm_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = InstanceNorm_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = InstanceNorm::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
     }
@@ -1013,11 +1022,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Clip::create_pipeline(opt); if (ret) return ret; }
         { int ret = Clip_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Clip_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Clip_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Clip_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Clip_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Clip_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Clip::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -1034,11 +1043,11 @@ class Reorg_final : virtual public Reorg, virtual public Reorg_vulkan
 public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Reorg::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Reorg_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Reorg_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Reorg_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Reorg_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Reorg::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
     }
@@ -1147,11 +1156,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Packing::create_pipeline(opt); if (ret) return ret; }
         { int ret = Packing_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Packing_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Packing_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Packing_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Packing_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Packing_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Packing::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -1190,11 +1199,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = Cast::create_pipeline(opt); if (ret) return ret; }
         { int ret = Cast_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = Cast_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Cast_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = Cast_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = Cast_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Cast_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = Cast::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -1213,11 +1222,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = HardSigmoid::create_pipeline(opt); if (ret) return ret; }
         { int ret = HardSigmoid_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = HardSigmoid_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = HardSigmoid_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = HardSigmoid_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = HardSigmoid_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = HardSigmoid_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = HardSigmoid::destroy_pipeline(opt); if (ret) return ret; }
         return 0;
@@ -1256,11 +1265,11 @@ public:
     virtual int create_pipeline(const Option& opt) {
         { int ret = HardSwish::create_pipeline(opt); if (ret) return ret; }
         { int ret = HardSwish_arm::create_pipeline(opt); if (ret) return ret; }
-        if (opt.use_vulkan_compute) { int ret = HardSwish_vulkan::create_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = HardSwish_vulkan::create_pipeline(opt); if (ret) return ret; }
         return 0;
     }
     virtual int destroy_pipeline(const Option& opt) {
-        if (opt.use_vulkan_compute) { int ret = HardSwish_vulkan::destroy_pipeline(opt); if (ret) return ret; }
+        if (vkdev) { int ret = HardSwish_vulkan::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = HardSwish_arm::destroy_pipeline(opt); if (ret) return ret; }
         { int ret = HardSwish::destroy_pipeline(opt); if (ret) return ret; }
         return 0;

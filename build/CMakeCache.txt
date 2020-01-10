@@ -23,9 +23,6 @@ CMAKE_AR:FILEPATH=/usr/bin/ar
 //No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:STRING=Release
 
-//Enable/Disable color output during build.
-CMAKE_COLOR_MAKEFILE:BOOL=ON
-
 //No help, variable specified on the command line.
 CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/aarch64-linux-gnu-g++-7
 
@@ -37,20 +34,19 @@ CMAKE_CXX_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-7
 // for the GCC compiler
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-7
 
-//Flags used by the compiler during all build types.
+//Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
 
-//Flags used by the compiler during debug builds.
+//Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
 
-//Flags used by the compiler during release builds for minimum
-// size.
+//Flags used by the CXX compiler during MINSIZEREL builds.
 CMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
-//Flags used by the compiler during release builds.
+//Flags used by the CXX compiler during RELEASE builds.
 CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
-//Flags used by the compiler during release builds with debug info.
+//Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //No help, variable specified on the command line.
@@ -64,38 +60,37 @@ CMAKE_C_COMPILER_AR:FILEPATH=/usr/bin/gcc-ar-7
 // for the GCC compiler
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/usr/bin/gcc-ranlib-7
 
-//Flags used by the compiler during all build types.
+//Flags used by the C compiler during all build types.
 CMAKE_C_FLAGS:STRING=
 
-//Flags used by the compiler during debug builds.
+//Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
 
-//Flags used by the compiler during release builds for minimum
-// size.
+//Flags used by the C compiler during MINSIZEREL builds.
 CMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG
 
-//Flags used by the compiler during release builds.
+//Flags used by the C compiler during RELEASE builds.
 CMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
-//Flags used by the compiler during release builds with debug info.
+//Flags used by the C compiler during RELWITHDEBINFO builds.
 CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //Path to a program.
 CMAKE_DLLTOOL:FILEPATH=CMAKE_DLLTOOL-NOTFOUND
 
-//Flags used by the linker.
+//Flags used by the linker during all build types.
 CMAKE_EXE_LINKER_FLAGS:STRING=
 
-//Flags used by the linker during debug builds.
+//Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
 
-//Flags used by the linker during release minsize builds.
+//Flags used by the linker during MINSIZEREL builds.
 CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=
 
-//Flags used by the linker during release builds.
+//Flags used by the linker during RELEASE builds.
 CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 
-//Flags used by the linker during Release with Debug Info builds.
+//Flags used by the linker during RELWITHDEBINFO builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //No help, variable specified on the command line.
@@ -155,22 +150,27 @@ CMAKE_INSTALL_SYSCONFDIR:PATH=etc
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/usr/bin/ld
 
-//Path to a program.
-CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
+//Program used to build from build.ninja files.
+CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/ninja
 
-//Flags used by the linker during the creation of modules.
+//Flags used by the linker during the creation of modules during
+// all build types.
 CMAKE_MODULE_LINKER_FLAGS:STRING=
 
-//Flags used by the linker during debug builds.
+//Flags used by the linker during the creation of modules during
+// DEBUG builds.
 CMAKE_MODULE_LINKER_FLAGS_DEBUG:STRING=
 
-//Flags used by the linker during release minsize builds.
+//Flags used by the linker during the creation of modules during
+// MINSIZEREL builds.
 CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL:STRING=
 
-//Flags used by the linker during release builds.
+//Flags used by the linker during the creation of modules during
+// RELEASE builds.
 CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=
 
-//Flags used by the linker during Release with Debug Info builds.
+//Flags used by the linker during the creation of modules during
+// RELWITHDEBINFO builds.
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
@@ -197,19 +197,24 @@ CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
 //Path to a program.
 CMAKE_READELF:FILEPATH=/usr/bin/readelf
 
-//Flags used by the linker during the creation of dll's.
+//Flags used by the linker during the creation of shared libraries
+// during all build types.
 CMAKE_SHARED_LINKER_FLAGS:STRING=
 
-//Flags used by the linker during debug builds.
+//Flags used by the linker during the creation of shared libraries
+// during DEBUG builds.
 CMAKE_SHARED_LINKER_FLAGS_DEBUG:STRING=
 
-//Flags used by the linker during release minsize builds.
+//Flags used by the linker during the creation of shared libraries
+// during MINSIZEREL builds.
 CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL:STRING=
 
-//Flags used by the linker during release builds.
+//Flags used by the linker during the creation of shared libraries
+// during RELEASE builds.
 CMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=
 
-//Flags used by the linker during Release with Debug Info builds.
+//Flags used by the linker during the creation of shared libraries
+// during RELWITHDEBINFO builds.
 CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //If set, runtime paths are not added when installing shared libraries,
@@ -219,19 +224,24 @@ CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 //If set, runtime paths are not added when using shared libraries.
 CMAKE_SKIP_RPATH:BOOL=NO
 
-//Flags used by the linker during the creation of static libraries.
+//Flags used by the linker during the creation of static libraries
+// during all build types.
 CMAKE_STATIC_LINKER_FLAGS:STRING=
 
-//Flags used by the linker during debug builds.
+//Flags used by the linker during the creation of static libraries
+// during DEBUG builds.
 CMAKE_STATIC_LINKER_FLAGS_DEBUG:STRING=
 
-//Flags used by the linker during release minsize builds.
+//Flags used by the linker during the creation of static libraries
+// during MINSIZEREL builds.
 CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL:STRING=
 
-//Flags used by the linker during release builds.
+//Flags used by the linker during the creation of static libraries
+// during RELEASE builds.
 CMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=
 
-//Flags used by the linker during Release with Debug Info builds.
+//Flags used by the linker during the creation of static libraries
+// during RELWITHDEBINFO builds.
 CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
 //Path to a program.
@@ -275,19 +285,20 @@ CUDA_HOST_COMPILER:FILEPATH=/usr/bin/aarch64-linux-gnu-gcc-7
 //Path to a program.
 CUDA_NVCC_EXECUTABLE:FILEPATH=/usr/local/cuda/bin/nvcc
 
-//Semi-colon delimit multiple arguments.
+//Semi-colon delimit multiple arguments. during all build types.
 CUDA_NVCC_FLAGS:STRING=
 
-//Semi-colon delimit multiple arguments.
+//Semi-colon delimit multiple arguments. during DEBUG builds.
 CUDA_NVCC_FLAGS_DEBUG:STRING=
 
-//Semi-colon delimit multiple arguments.
+//Semi-colon delimit multiple arguments. during MINSIZEREL builds.
 CUDA_NVCC_FLAGS_MINSIZEREL:STRING=
 
-//Semi-colon delimit multiple arguments.
+//Semi-colon delimit multiple arguments. during RELEASE builds.
 CUDA_NVCC_FLAGS_RELEASE:STRING=
 
-//Semi-colon delimit multiple arguments.
+//Semi-colon delimit multiple arguments. during RELWITHDEBINFO
+// builds.
 CUDA_NVCC_FLAGS_RELWITHDEBINFO:STRING=
 
 //"OpenCL" library
@@ -407,7 +418,7 @@ DLIB_ISO_CPP_ONLY:BOOL=OFF
 DLIB_JPEG_SUPPORT:BOOL=ON
 
 //Disable this if you don't want to link against sqlite3
-DLIB_LINK_WITH_SQLITE3:STRING=OFF
+DLIB_LINK_WITH_SQLITE3:BOOL=ON
 
 //Enable this if you don't want to compile any of the dlib GUI
 // code
@@ -467,17 +478,35 @@ GLSLANGVALIDATOR_EXECUTABLE:FILEPATH=/usr/local/bin/glslangValidator
 JPEG_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a library.
-JPEG_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libjpeg.so
+JPEG_LIBRARY_DEBUG:FILEPATH=JPEG_LIBRARY_DEBUG-NOTFOUND
+
+//Path to a library.
+JPEG_LIBRARY_RELEASE:FILEPATH=/usr/lib/aarch64-linux-gnu/libjpeg.so
+
+//The directory containing a CMake configuration file for JetsonGPIO.
+JetsonGPIO_DIR:PATH=JetsonGPIO_DIR-NOTFOUND
 
 //root for library output, set this to change where android libs
 // are compiled to
 LIBRARY_OUTPUT_PATH_ROOT:PATH=/home/pi/Documents/c_face_rec/build
+
+//Path to a file.
+MYSQLCONNECTORCPP_INCLUDE_DIR:PATH=/usr/include
+
+//Path to a library.
+MYSQLCONNECTORCPP_LIBRARY:FILEPATH=/usr/lib/aarch64-linux-gnu/libmysqlcppconn.so
+
+//Where to start looking for this component.
+MYSQLCONNECTORCPP_ROOT_DIR:PATH=
 
 //optimize x86 platform with avx2
 NCNN_AVX2:BOOL=OFF
 
 //print benchmark information for every layer
 NCNN_BENCHMARK:BOOL=OFF
+
+//build tests
+NCNN_BUILD_TESTS:BOOL=ON
 
 //build tools
 NCNN_BUILD_TOOLS:BOOL=ON
@@ -487,6 +516,9 @@ NCNN_CMAKE_VERBOSE:BOOL=OFF
 
 //disable exception
 NCNN_DISABLE_EXCEPTION:BOOL=OFF
+
+//disable position-independent code
+NCNN_DISABLE_PIC:BOOL=OFF
 
 //disable rtti
 NCNN_DISABLE_RTTI:BOOL=OFF
@@ -552,22 +584,22 @@ PNG_LIBRARY_RELEASE:FILEPATH=/usr/lib/aarch64-linux-gnu/libpng.so
 PNG_PNG_INCLUDE_DIR:PATH=/usr/include
 
 //Path to a file.
-Protobuf_INCLUDE_DIR:PATH=/usr/include
+Protobuf_INCLUDE_DIR:PATH=/usr/local/include
 
 //Path to a library.
-Protobuf_LIBRARY_DEBUG:FILEPATH=/usr/lib/aarch64-linux-gnu/libprotobuf.so
+Protobuf_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libprotobuf.so
 
 //Path to a library.
-Protobuf_LIBRARY_RELEASE:FILEPATH=/usr/lib/aarch64-linux-gnu/libprotobuf.so
+Protobuf_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libprotobuf.so
 
 //Path to a library.
-Protobuf_LITE_LIBRARY_DEBUG:FILEPATH=/usr/lib/aarch64-linux-gnu/libprotobuf-lite.so
+Protobuf_LITE_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libprotobuf-lite.so
 
 //Path to a library.
-Protobuf_LITE_LIBRARY_RELEASE:FILEPATH=/usr/lib/aarch64-linux-gnu/libprotobuf-lite.so
+Protobuf_LITE_LIBRARY_RELEASE:FILEPATH=/usr/local/lib/libprotobuf-lite.so
 
 //The Google Protocol Buffers Compiler
-Protobuf_PROTOC_EXECUTABLE:FILEPATH=/usr/bin/protoc
+Protobuf_PROTOC_EXECUTABLE:FILEPATH=/usr/local/bin/protoc
 
 //Path to a library.
 Protobuf_PROTOC_LIBRARY_DEBUG:FILEPATH=/usr/local/lib/libprotoc.so
@@ -825,12 +857,6 @@ X11_XShm_INCLUDE_PATH:PATH=/usr/include
 X11_XSync_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a file.
-X11_XTest_INCLUDE_PATH:PATH=/usr/include
-
-//Path to a library.
-X11_XTest_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXtst.so
-
-//Path to a file.
 X11_Xaccessrules_INCLUDE_PATH:PATH=X11_Xaccessrules_INCLUDE_PATH-NOTFOUND
 
 //Path to a file.
@@ -897,19 +923,7 @@ X11_Xinerama_INCLUDE_PATH:PATH=/usr/include
 X11_Xinerama_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXinerama.so
 
 //Path to a file.
-X11_Xinput_INCLUDE_PATH:PATH=/usr/include
-
-//Path to a library.
-X11_Xinput_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXi.so
-
-//Path to a file.
 X11_Xkb_INCLUDE_PATH:PATH=/usr/include
-
-//Path to a file.
-X11_Xkbfile_INCLUDE_PATH:PATH=X11_Xkbfile_INCLUDE_PATH-NOTFOUND
-
-//Path to a library.
-X11_Xkbfile_LIB:FILEPATH=X11_Xkbfile_LIB-NOTFOUND
 
 //Path to a file.
 X11_Xkblib_INCLUDE_PATH:PATH=/usr/include
@@ -940,12 +954,6 @@ X11_Xrender_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a library.
 X11_Xrender_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXrender.so
-
-//Path to a file.
-X11_Xscreensaver_INCLUDE_PATH:PATH=X11_Xscreensaver_INCLUDE_PATH-NOTFOUND
-
-//Path to a library.
-X11_Xscreensaver_LIB:FILEPATH=X11_Xscreensaver_LIB-NOTFOUND
 
 //Path to a file.
 X11_Xshape_INCLUDE_PATH:PATH=/usr/include
@@ -993,12 +1001,6 @@ X11_Xxf86vm_LIB:FILEPATH=/usr/lib/aarch64-linux-gnu/libXxf86vm.so
 X11_dpms_INCLUDE_PATH:PATH=/usr/include
 
 //Path to a file.
-X11_xf86misc_INCLUDE_PATH:PATH=X11_xf86misc_INCLUDE_PATH-NOTFOUND
-
-//Path to a file.
-X11_xf86vmode_INCLUDE_PATH:PATH=/usr/include
-
-//Path to a file.
 X11_xkbfile_INCLUDE_PATH:PATH=X11_xkbfile_INCLUDE_PATH-NOTFOUND
 
 //Path to a library.
@@ -1025,14 +1027,11 @@ cudnn_include:PATH=/usr/include
 //Value Computed by CMake
 dlib_BINARY_DIR:STATIC=/home/pi/Documents/c_face_rec/build/dlib_build
 
-//The directory containing a CMake configuration file for dlib.
-dlib_DIR:PATH=dlib_DIR-NOTFOUND
-
 //Dependencies for the target
-dlib_LIB_DEPENDS:STATIC=general;/usr/local/cuda/lib64/libcudart_static.a;general;dl;general;/usr/lib/aarch64-linux-gnu/librt.so;general;-lpthread;general;/usr/lib/aarch64-linux-gnu/libnsl.so;general;/usr/lib/aarch64-linux-gnu/libSM.so;general;/usr/lib/aarch64-linux-gnu/libICE.so;general;/usr/lib/aarch64-linux-gnu/libX11.so;general;/usr/lib/aarch64-linux-gnu/libXext.so;general;/usr/lib/aarch64-linux-gnu/libpng.so;general;/usr/lib/aarch64-linux-gnu/libz.so;general;/usr/lib/aarch64-linux-gnu/libjpeg.so;general;/usr/lib/aarch64-linux-gnu/libopenblas.so;general;/usr/local/cuda/lib64/libcublas.so;general;/usr/lib/aarch64-linux-gnu/libcudnn.so;general;/usr/local/cuda/lib64/libcurand.so;general;/usr/local/cuda/lib64/libcusolver.so;
+dlib_LIB_DEPENDS:STATIC=general;/usr/local/cuda/lib64/libcudart_static.a;general;dl;general;/usr/lib/aarch64-linux-gnu/librt.so;general;-lpthread;general;/usr/lib/aarch64-linux-gnu/libnsl.so;general;/usr/lib/aarch64-linux-gnu/libSM.so;general;/usr/lib/aarch64-linux-gnu/libICE.so;general;/usr/lib/aarch64-linux-gnu/libX11.so;general;/usr/lib/aarch64-linux-gnu/libXext.so;general;/usr/lib/aarch64-linux-gnu/libpng.so;general;/usr/lib/aarch64-linux-gnu/libz.so;general;/usr/lib/aarch64-linux-gnu/libjpeg.so;general;/usr/lib/aarch64-linux-gnu/libopenblas.so;general;/usr/local/cuda/lib64/libcublas.so;general;/usr/lib/aarch64-linux-gnu/libcudnn.so;general;/usr/local/cuda/lib64/libcurand.so;general;/usr/local/cuda/lib64/libcusolver.so;general;/usr/local/cuda/lib64/libcudart.so;general;/usr/lib/aarch64-linux-gnu/libsqlite3.so;
 
 //Value Computed by CMake
-dlib_SOURCE_DIR:STATIC=/home/pi/Documents/dlib-19.17/dlib
+dlib_SOURCE_DIR:STATIC=/home/pi/Documents/dlib/dlib
 
 //Path to a library.
 mkl_core:FILEPATH=mkl_core-NOTFOUND
@@ -1083,10 +1082,10 @@ pkgcfg_lib_PKG_FONTCONFIG_freetype:FILEPATH=/usr/lib/aarch64-linux-gnu/libfreety
 socketlib:FILEPATH=socketlib-NOTFOUND
 
 //Path to a library.
-sqlite:FILEPATH=sqlite-NOTFOUND
+sqlite:FILEPATH=/usr/lib/aarch64-linux-gnu/libsqlite3.so
 
 //Path to a file.
-sqlite_path:PATH=sqlite_path-NOTFOUND
+sqlite_path:PATH=/usr/include
 
 
 ########################
@@ -1130,8 +1129,6 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=16
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=20191207
-//ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
-CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/usr/local/bin/cmake
 //Path to cpack program executable.
@@ -1172,8 +1169,6 @@ CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_DLLTOOL
 CMAKE_DLLTOOL-ADVANCED:INTERNAL=1
-//Path to cache edit program executable.
-CMAKE_EDIT_COMMAND:INTERNAL=/usr/bin/cmake-gui
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -1191,7 +1186,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=Unix Makefiles
+CMAKE_GENERATOR:INTERNAL=Ninja
 //Generator instance identifier.
 CMAKE_GENERATOR_INSTANCE:INTERNAL=
 //Name of generator platform.
@@ -1202,8 +1197,6 @@ CMAKE_GENERATOR_TOOLSET:INTERNAL=
 CMAKE_HAVE_CONNECT:INTERNAL=1
 //Have function gethostbyname
 CMAKE_HAVE_GETHOSTBYNAME:INTERNAL=1
-//Have symbol pthread_create
-CMAKE_HAVE_LIBC_CREATE:INTERNAL=
 //Test CMAKE_HAVE_LIBC_PTHREAD
 CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
 //Have library pthreads
@@ -1272,7 +1265,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=10
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -1419,6 +1412,8 @@ CUDA_parse_cubin:INTERNAL=/usr/local/share/cmake-3.16/Modules/FindCUDA/parse_cub
 CUDA_run_nvcc:INTERNAL=/usr/local/share/cmake-3.16/Modules/FindCUDA/run_nvcc.cmake
 //Details about finding CUDA
 FIND_PACKAGE_MESSAGE_DETAILS_CUDA:INTERNAL=[/usr/local/cuda][/usr/local/cuda/bin/nvcc][/usr/local/cuda/include][/usr/local/cuda/lib64/libcudart_static.a][v10.0(10.0)]
+//Details about finding MysqlConnectorCpp
+FIND_PACKAGE_MESSAGE_DETAILS_MysqlConnectorCpp:INTERNAL=[/usr/include][/usr/lib/aarch64-linux-gnu/libmysqlcppconn.so][v()]
 //Details about finding OpenCV
 FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr/local][v4.0.0()]
 //Details about finding OpenMP
@@ -1430,7 +1425,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_OpenMP_CXX:INTERNAL=[-fopenmp][/usr/lib/gcc/aarch64
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.1()]
 //Details about finding Protobuf
-FIND_PACKAGE_MESSAGE_DETAILS_Protobuf:INTERNAL=[/usr/lib/aarch64-linux-gnu/libprotobuf.so;-lpthread][/usr/include][v3.0.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_Protobuf:INTERNAL=[/usr/local/lib/libprotobuf.so;-lpthread][/usr/local/include][v3.6.1()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding Vulkan
@@ -1465,8 +1460,10 @@ HAVE_STDINT_H:INTERNAL=1
 HAVE_SYS_TYPES_H:INTERNAL=1
 //ADVANCED property for variable: JPEG_INCLUDE_DIR
 JPEG_INCLUDE_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: JPEG_LIBRARY
-JPEG_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JPEG_LIBRARY_DEBUG
+JPEG_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: JPEG_LIBRARY_RELEASE
+JPEG_LIBRARY_RELEASE-ADVANCED:INTERNAL=1
 //Have function sgesv_
 LAPACK_FOUND_C_MANGLED:INTERNAL=
 //Have function sgesv
@@ -1486,6 +1483,7 @@ LAPACK_REFERENCE_LIBS:INTERNAL=
 LAPACK_REFERENCE_LIBS_L:INTERNAL=
 LAPACK_REFERENCE_LIBS_OTHER:INTERNAL=
 LAPACK_REFERENCE_LIBS_PATHS:INTERNAL=
+LAPACK_REFERENCE_MODULE_NAME:INTERNAL=lapack
 LAPACK_REFERENCE_PREFIX:INTERNAL=/usr
 LAPACK_REFERENCE_STATIC_CFLAGS:INTERNAL=-I/usr/include/aarch64-linux-gnu
 LAPACK_REFERENCE_STATIC_CFLAGS_I:INTERNAL=
@@ -1509,6 +1507,12 @@ LAPACK_REFERENCE_lapack_VERSION:INTERNAL=
 LIBJPEG_IS_GOOD:INTERNAL=1
 //Have function png_create_read_struct
 LIBPNG_IS_GOOD:INTERNAL=1
+//ADVANCED property for variable: MYSQLCONNECTORCPP_INCLUDE_DIR
+MYSQLCONNECTORCPP_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MYSQLCONNECTORCPP_LIBRARY
+MYSQLCONNECTORCPP_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: MYSQLCONNECTORCPP_ROOT_DIR
+MYSQLCONNECTORCPP_ROOT_DIR-ADVANCED:INTERNAL=1
 //Have function sgetrf_single
 OPENBLAS_HAS_LAPACK:INTERNAL=1
 //Result of TRY_COMPILE
@@ -1622,10 +1626,6 @@ X11_XRes_LIB-ADVANCED:INTERNAL=1
 X11_XShm_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_XSync_INCLUDE_PATH
 X11_XSync_INCLUDE_PATH-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: X11_XTest_INCLUDE_PATH
-X11_XTest_INCLUDE_PATH-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: X11_XTest_LIB
-X11_XTest_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xaccessrules_INCLUDE_PATH
 X11_Xaccessrules_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xaccessstr_INCLUDE_PATH
@@ -1670,16 +1670,8 @@ X11_Xi_LIB-ADVANCED:INTERNAL=1
 X11_Xinerama_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xinerama_LIB
 X11_Xinerama_LIB-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: X11_Xinput_INCLUDE_PATH
-X11_Xinput_INCLUDE_PATH-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: X11_Xinput_LIB
-X11_Xinput_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xkb_INCLUDE_PATH
 X11_Xkb_INCLUDE_PATH-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: X11_Xkbfile_INCLUDE_PATH
-X11_Xkbfile_INCLUDE_PATH-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: X11_Xkbfile_LIB
-X11_Xkbfile_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xkblib_INCLUDE_PATH
 X11_Xkblib_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xlib_INCLUDE_PATH
@@ -1700,10 +1692,6 @@ X11_Xrandr_LIB-ADVANCED:INTERNAL=1
 X11_Xrender_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xrender_LIB
 X11_Xrender_LIB-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: X11_Xscreensaver_INCLUDE_PATH
-X11_Xscreensaver_INCLUDE_PATH-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: X11_Xscreensaver_LIB
-X11_Xscreensaver_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xshape_INCLUDE_PATH
 X11_Xshape_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_Xss_INCLUDE_PATH
@@ -1734,10 +1722,6 @@ X11_Xxf86vm_INCLUDE_PATH-ADVANCED:INTERNAL=1
 X11_Xxf86vm_LIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_dpms_INCLUDE_PATH
 X11_dpms_INCLUDE_PATH-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: X11_xf86misc_INCLUDE_PATH
-X11_xf86misc_INCLUDE_PATH-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: X11_xf86vmode_INCLUDE_PATH
-X11_xf86vmode_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xkbfile_INCLUDE_PATH
 X11_xkbfile_INCLUDE_PATH-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: X11_xkbfile_LIB
@@ -1789,11 +1773,15 @@ pkgcfg_lib_LAPACK_REFERENCE_lapack-ADVANCED:INTERNAL=1
 pkgcfg_lib_PKG_FONTCONFIG_fontconfig-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PKG_FONTCONFIG_freetype
 pkgcfg_lib_PKG_FONTCONFIG_freetype-ADVANCED:INTERNAL=1
-prefix_result:INTERNAL=/usr/lib/aarch64-linux-gnu
+prefix_result:INTERNAL=/usr/lib/aarch64-linux-gnu/openblas
 //ADVANCED property for variable: socketlib
 socketlib-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: sqlite
 sqlite-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: sqlite_path
 sqlite_path-ADVANCED:INTERNAL=1
+//Result of TRY_COMPILE
+test_for_libjpeg_worked:INTERNAL=TRUE
+//Result of TRY_COMPILE
+test_for_libpng_worked:INTERNAL=TRUE
 

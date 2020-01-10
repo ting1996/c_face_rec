@@ -16,8 +16,8 @@ UltraFace::UltraFace(const std::string &bin_path, const std::string &param_path,
                      float score_threshold_, float iou_threshold_, int topk_) {
     num_thread = num_thread_;
     topk = topk_;
-    score_threshold = score_threshold_;
-    iou_threshold = iou_threshold_;
+    score_threshold = 0.7;//score_threshold_;
+    iou_threshold = 0.3;//iou_threshold_;
     in_w = input_width;
     in_h = input_length;
     w_h_list = {in_w, in_h};
@@ -53,19 +53,24 @@ UltraFace::UltraFace(const std::string &bin_path, const std::string &param_path,
     }
     num_anchors = priors.size();
     /* generate prior anchors finished */
-
+    ncnn::create_gpu_instance();
+   
+    ultraface.opt.use_vulkan_compute = 1;
     ultraface.load_param(param_path.data());
     ultraface.load_model(bin_path.data());
+
+      
 }
 
-UltraFace::~UltraFace() { ultraface.clear(); }
+UltraFace::~UltraFace() { ncnn::destroy_gpu_instance();
+  ultraface.clear(); }
 
 int UltraFace::detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list) {
     if (img.empty()) {
         std::cout << "image is empty ,please check!" << std::endl;
         return -1;
     }
-
+    
     image_h = img.h;
     image_w = img.w;
 
@@ -78,13 +83,15 @@ int UltraFace::detect(ncnn::Mat &img, std::vector<FaceInfo> &face_list) {
     std::vector<FaceInfo> valid_input;
 
     ncnn::Extractor ex = ultraface.create_extractor();
-    ex.set_num_threads(num_thread);
+    ex.set_vulkan_compute(true);
+    //ex.set_num_threads(num_thread);
     ex.input("input", ncnn_img);
 
     ncnn::Mat scores;
     ncnn::Mat boxes;
     ex.extract("scores", scores);
     ex.extract("boxes", boxes);
+    
     generateBBox(bbox_collection, scores, boxes, score_threshold, num_anchors);
     nms(bbox_collection, face_list);
     return 0;
@@ -155,7 +162,7 @@ void UltraFace::nms(std::vector<FaceInfo> &input, std::vector<FaceInfo> &output,
             float score;
 
             score = inner_area / (area0 + area1 - inner_area);
-
+            
             if (score > iou_threshold) {
                 merged[j] = 1;
                 buf.push_back(input[j]);
